@@ -1,0 +1,14 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.wrapper{
+  width: 100%;
+  height: calc(100% - 64px);
+  margin-top: 64px;
+}

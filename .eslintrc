@@ -1,0 +1,44 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "curly": 1,
+    "comma-dangle": [1, "always-multiline"],
+    "comma-spacing": [1, { "before": false, "after": true }],
+    "eqeqeq": [1, "allow-null"],
+    "key-spacing": [1, { "beforeColon": false, "afterColon": true }],
+    "no-alert": 1,
+    "no-lonely-if": 1,
+    "no-else-return": 0,
+    "no-empty-function": 1,
+    "no-fallthrough": 1,
+    "no-floating-decimal": 1,
+    "no-magic-numbers": [0, { "ignoreArrayIndexes": true }],
+    "no-underscore-dangle": 1,
+    "no-unused-expressions": 1,
+    "no-unused-labels": 1,
+    "no-unused-vars": 0,
+    "no-self-assign": 1,
+    "no-shadow": 1,
+    "no-shadow-restricted-names": 1,
+    "no-extend-native": 1,
+    "no-var": 1,
+    "new-cap": 1,
+    "prop-types": 0,
+    "quotes": [1, "single", {"avoidEscape": true}],
+    "semi": 0,
+    "semi-spacing": 1,
+    "space-unary-ops": 1,
+    "space-infix-ops": 1,
+    "consistent-return": 0,
+    "default-case": 1,
+    "no-extra-bind": 1
+  },
+}

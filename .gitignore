@@ -1,0 +1,15 @@
+node_modules/*
+dist/*
+build/*
+vendor/*
+
+php/proxy.php
+php/test/**
+
+server/secrets.js
+
+*_old*
+
+*.log*
+
+*Thumbs.db
