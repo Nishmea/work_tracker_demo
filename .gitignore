@@ -3,13 +3,9 @@ dist/*
 build/*
 vendor/*
 
-php/proxy.php
-php/test/**
-
-server/secrets.js
-
 *_old*
-
 *.log*
-
 *Thumbs.db
+
+#php/proxy.php
+#server/secrets.js
